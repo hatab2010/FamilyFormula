@@ -1,0 +1,37 @@
+.page{
+  min-height: 100vh;
+  height: 100vh;
+  min-width: 1100px;
+
+  &__wrapper{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__container{
+    max-width: 1000px;
+    margin: 0px auto;
+    width: 100%;
+  }
+
+  &__background{
+    position: absolute;
+    overflow: hidden;
+    z-index: -12;
+    height: 100%;
+    width: 100%;
+
+    img{
+      z-index: -12;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-height: 100%;
+      min-width: 100%;
+    }
+  }
+}

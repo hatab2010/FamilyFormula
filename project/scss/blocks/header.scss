@@ -1,0 +1,33 @@
+.header{
+
+  &__title{
+    text-transform: uppercase;
+    margin-top: 60px;
+    color: #5d5d5d;
+    font-size: 58px;
+  }
+
+  &__link-wrapper{
+    color: #5d5d5d;
+    font-size: 18px;
+  }
+
+  &__link{
+    color: #8d8d8d;
+    margin-left: 30px;
+    cursor: pointer;
+    border: 1px solid #8d8d8d;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    &:hover{
+      color: #ad986e;
+      border-color: #ad986e;
+    }
+
+    &:first-child{
+      margin-left: 0px;
+    }
+  }
+}

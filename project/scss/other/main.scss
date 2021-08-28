@@ -1,0 +1,20 @@
+body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Pro";
+}
+
+main{
+  position: relative;
+}
+
+.color{
+  &--main{
+    color: #ad986e;
+  }
+}
+
+a{
+  text-decoration: none;
+}
